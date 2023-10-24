@@ -1,85 +1,83 @@
 <p align="left">
   <a href="https://numl.design" target="_blank" rel="noopener noreferrer">
-    <img width="311" src="/images/Numl.Design_Logo.svg" alt="Numl.Design logo">
+    <img width="311" src="/images/Numl.Design_Logo.svg" alt="Logo Numl.Design">
   </a>
 </p>
 
-[![NPM Version](https://img.shields.io/npm/v/numl.svg?style=flat)](https://www.npmjs.com/package/numl)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/numldesign/numl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/numldesign/numl/context:javascript)
+[![Versión NPM](https://img.shields.io/npm/v/numl.svg?style=flat)](https://www.npmjs.com/package/numl)
+[![Grado de lengua: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/numldesign/numl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/numldesign/numl/context:javascript)
 ![npm](https://img.shields.io/npm/dm/numl)
-[![Discord](https://img.shields.io/discord/793832892781690891?color=7389D8&label=chat%20on%20Discord&logo=Discord&logoColor=ffffff)](https://discord.gg/sHnHPnAPZj)
-[![Rate on Openbase](https://badges.openbase.io/js/rating/numl.svg)](https://openbase.io/js/numl?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
+[![Discordia](https://img.shields.io/discord/793832892781690891?color=7389D8&label=chat%20on%20Discord&logo=Discord&logoColor=ffffff)](https://discord.gg/sHnHPnAPZj)
+[![Tasa en Openbase](https://badges.openbase.io/js/rating/numl.svg)](https://openbase.io/js/numl?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
 
 
-Numl is a UI Design Language, UI Library of Web Components, and Runtime CSS Framework for rapidly building interfaces that follow your Design System 🌈
+Numl es un lenguaje de diseño de interfaz de usuario, una biblioteca de componentes web de interfaz de usuario y un marco CSS en tiempo de ejecución para crear rápidamente interfaces que sigan su sistema de diseño 🌈
+Created By Arturo Cervantes
 
 ### [STORYBOOK](https://numl.design/storybook) | [HANDBOOK](https://numl.design/handbook) | [REFERENCE](https://numl.design/reference) | [REPL](https://numl.design/repl)
 
-## Quick Start
+## Inicio rápido
 
-Add the following code to your page.
+Añada el siguiente código a su página.
 
-via [JsDelivr](http://www.jsdelivr.com/):
+vía [JsDelivr](http://www.jsdelivr.com/):
 
 ```html
 <script type="module" src="https://cdn.jsdelivr.net/npm/numl@1.1.2/dist/index.js"></script>
 ```
 
-That's all! Now you can use all elements and features of Numl 🚀
+¡Eso es todo! Ahora puedes utilizar todos los elementos y funciones de Numl 🚀
 
-Try to add a simple element:
+Intenta añadir un elemento sencillo:
 
 ```html
-<nu-btn>My button</nu-btn>
+<nu-btn>Mi botón</nu-btn>
 ```
-
 See our [Handbook](https://numl.design/handbook/getting-started) for more details and other ways to install Numl.
 
-## Intro
-* Add a single JS-script to your page, and you are ready to create virtually any interface using only HTML syntax quickly. No bundler, no config, and no frustration.
-* Integrate Numl with popular JS-Frameworks. Use it with SSG if you like. 
-* Use color generation system and styles-to-state bindings to decrease style declarations up to dozens of times compared to plain CSS.
-* Easily create your own Design System and UI Kit based on Numl. [Example](https://cubejs-uikit.vercel.app/)
-* Customize your elements at any level: Globally, in context, directly. Use design tokens (Custom Properties) for a more convenient way to customize.
-* Remove dozens of UI helper libraries from your project 'cause Numl can do it itself.
-* Add your own elements, style attributes, behaviors, design tokens, custom units, and more...
-* Use it for free. Contribute if you like it. 
+## Introducción
+* Añada un único JS-script a su página, y usted está listo para crear virtualmente cualquier interfaz usando sólo la sintaxis HTML rápidamente. Sin bundler, sin configuración, y sin frustración.
+* Integrar Numl con populares JS-Frameworks. Úsalo con SSG si quieres. 
+* Utilice el sistema de generación de color y estilos-a-estado para reducir las declaraciones de estilo hasta docenas de veces en comparación con CSS simple.
+* Cree fácilmente su propio sistema de diseño y kit de interfaz de usuario basado en Numl. [Ejemplo] (https://cubejs-uikit.vercel.app/)
+* Personaliza tus elementos a cualquier nivel: globalmente, en contexto, directamente. Utilice tokens de diseño (propiedades personalizadas) para una forma más conveniente de personalizar.
+* Elimine docenas de librerías ayudantes de UI de su proyecto porque Numl puede hacerlo por sí mismo.
+* Añadir sus propios elementos, atributos de estilo, comportamientos, fichas de diseño, unidades personalizadas, y más...
+* Úsalo de forma gratuita. Contribuye si te gusta. 
 
-## Who is Numl for?
+¿Para quién es Numl?
 
-- **For beginners** Use a well-thought-out Design System with automatic Dark Scheme and High Contrast Mode for rapid development of adaptive and accessible UIs. Create new components by nesting or/and styling foundation elements. 
-- **For enthusiastic** Customize the Numl Design System to the smallest detail in runtime using HTML. Use behaviors and control system to add simple interactions. Add your favorite framework (**Vue.js**, **Angular**, **React**, **Svelte**...) for complex logic.
-- **For experts** Use JavaScript API to create elements that follow your Design System on top of the **Numl**. Integrate Design Tokens into elements to have more control. Add your own unique elements, styles, behaviors, and tokens.
-
+- **Para principiantes** Utilice un sistema de diseño bien pensado con esquema oscuro automático y modo de contraste alto para el rápido desarrollo de interfaces de usuario adaptables y accesibles. Crear nuevos componentes anidando o estilizando elementos de cimentación. 
+- **Para entusiastas** Personaliza el Sistema de Diseño Numl hasta el más mínimo detalle en tiempo de ejecución usando HTML. Utilice comportamientos y sistema de control para agregar interacciones simples. Agregue su framework favorito (**Vue.js**, **Angular**, **React**, **Svelte**...) para lógica compleja.
+- **Para expertos** Utilice la API JavaScript para crear elementos que sigan su Sistema de Diseño en la parte superior del **Numl**. Integre Design Tokens en elementos para tener más control. Agregue sus propios elementos, estilos, comportamientos y fichas únicos.
 ## Another UI Framework? Why should I care?
 
-- **All-in-one** – Numl is both a markup language for rapidly building responsive interfaces and a set of ready-to-use highly-customizable accessible elements. So you can use a single comprehensive tool to compose and style web applications. It's also possible to create simple interactions without writing JS.
-- **Unique** – Numl is based on unique CSS generation technology that allows you to unleash all the power of modern CSS and take all styles under your control.
-- **DX Focused** – Numl is focused on providing the best possible Developer Experience. It has lots of built-in helpers and solutions for routine UI development and its atomic approach is convenient for maintaining and refactoring.
-- **Universal** – Numl is built on top of Web Components, a modern web API to create reusable UI elements, and it's compatible with most modern JS-frameworks. You can use it as is or create lightweight wrappers for your favorite framework to improve DX, SSR and SEO.
+-**All-in-one** – Numl es tanto un lenguaje de marcado para construir rápidamente interfaces receptivas como un conjunto de elementos accesibles altamente personalizables listos para usar. Por lo tanto, puede utilizar una única herramienta integral para componer y diseñar aplicaciones web. También es posible crear interacciones simples sin escribir JS.
+- **Unique** – Numl se basa en una tecnología única de generación de CSS que le permite dar rienda suelta a todo el poder de CSS moderno y tomar todos los estilos bajo su control.
+- **DX Focused** – Numl se centra en proporcionar la mejor experiencia posible para desarrolladores. Tiene muchos ayudantes y soluciones incorporadas para el desarrollo rutinario de la interfaz de usuario y su enfoque atómico es conveniente para el mantenimiento y refactorización.
+- **Universal** – Numl está construido sobre Web Components, una moderna API web para crear elementos reutilizables de interfaz de usuario, y es compatible con la mayoría de los modernos marcos JS. Puede usarlo tal cual o crear envolturas ligeras para su framework favorito para mejorar DX, SSR y SEO.
 
-[Learn more at NUML.DESIGN](https://numl.design/)
+[Más información en NUML.DESIGN] (https://numl.design/)
 
-## Examples
+## Ejemplos
 
-* [Flex playground](https://numl.design/storybook/layouts/flex-playground)
-* [Grid playground](https://numl.design/storybook/layouts/grid-playground)
-* [Markdown converter](https://numl.design/storybook/converters/markdown)
-* [Before/After slider](https://numl.design/storybook/complex/before-after-slider)
-* [Login form validation](https://numl.design/storybook/complex/login-form)
+* [Flex playground] (https://numl.design/storybook/layouts/flex-playground)
+* [Grid Playground] (https://numl.design/storybook/layouts/grid-playground)
+* [Markdown Converter] (https://numl.design/storybook/converters/markdown)
+* [Deslizador antes/después] (https://numl.design/storybook/complex/before-after-slider)
+* [Validación del formulario de acceso] (https://numl.design/storybook/complex/login-form)
+## Construido con Numl
 
-## Built with Numl
-
-* [Cube.js UI Kit](https://github.com/cube-js/cubejs-ui-kit) by **Cube Dev**.
-* [Numl Website](https://numl.design) ([Repo Link](https://github.com/numldesign/website)) - built with **Nuxt** and **Vue.js**.
-* Old Numl Landing Page ([Repo Link](https://github.com/tenphi/numl.design)) built with **Parcel**.
-* Old Numl Storybook ([Repo Link](https://github.com/tenphi/numl-storybook)) built with **Vue.js** and **Webpack**.
+* [Cube.js UI Kit] (https://github.com/cube-js/cubejs-ui-kit) por **Cube Dev**.
+* [Numl Website] (https://numl.design) ([Repo Link] (https://github.com/numldesign/website)) - construido con **Nuxt** y **Vue.js**.
+* Old Numl Landing Page ([Repo Link] (https://github.com/tenphi/numl.design)) construido con **Parcel**.
+* Old Numl Storybook ([Repo Link] (https://github.com/tenphi/numl-storybook)) construido con **Vue.js** y **Webpack**.
 * [Sellerscale](https://sellerscale.com) – [Project Screenshot Light](https://github.com/tenphi/nude/blob/master/images/example-app-light.png?raw=true) | [Project Screenshot Dark](https://github.com/tenphi/nude/blob/master/images/example-app-dark.png?raw=true) | [Project Screenshot Light Contrast](https://github.com/tenphi/nude/blob/master/images/example-app-light-contrast.png?raw=true) | [Project Screenshot Dark Contrast](https://github.com/tenphi/nude/blob/master/images/example-app-dark-contrast.png?raw=true)
-* [Web Standards Calendar](https://frontend-events-numl.now.sh/) by [@KatrinLuna](https://github.com/katrinLuna) ([Repo Link](https://github.com/katrinLuna/frontend-events-numl)).
+* [Web Standards Calendar] (https://frontend-events-numl.now.sh/) por [@KatrinLuna] (https://github.com/katrinLuna) ([Repo Link] (https://github.com/katrinLuna/frontend-events-numl)).
 
-### Browser Support
+### Soporte del navegador
 
-Numl is tested in the latest two versions of the following browsers:
+Numl se prueba en las dos últimas versiones de los siguientes navegadores:
 
 * Microsoft Edge
 * Google Chrome
@@ -88,70 +86,22 @@ Numl is tested in the latest two versions of the following browsers:
 * Apple iOS Safari
 * Google Android
 
-Critical bug fixes in earlier versions will be addressed based on their severity and impact.
+Las correcciones de errores críticos en versiones anteriores se abordarán en función de su gravedad e impacto.
 
-If you need to support IE11 or pre-Chromium Edge, this library isn't for you. Although web components can (to some degree) be polyfilled for legacy browsers, supporting them is outside the scope of this project. If you're using Numl in such a browser, you're gonna have a bad time.
+Si necesita soporte para IE11 o pre-Chromium Edge, esta biblioteca no es para usted. Aunque los componentes web pueden (hasta cierto punto) ser polivinílicos para navegadores heredados, su soporte queda fuera del alcance de este proyecto. Si estás usando Numl en un navegador de este tipo, vas a tener un mal momento.
+## Desarrollo
 
-## Development
+* `npm start` ejecutar Numl Playground.
+* `npm run build` construye la librería a `dist`:
+    * `dist/index.js` - ES6 módulo amigable para agitar árboles. (Exporta el objeto global `Nude`)
+* `npm run dev` construye la librería, luego sigue reconstruyéndola cada vez que cambien los archivos fuente.
+* `prueba de ejecución npm` pruebas de ejecución.
 
-* `npm start` run Numl Playground.
-* `npm run build` build the library to `dist`:
-    * `dist/index.js` - ES6 tree-shaking friendly module. (Exports global `Nude` object)
-* `npm run dev` build the library, then keep rebuilding it whenever the source files change.
-* `npm run test` run tests.
+## local
 
-## Local playground
-
-Run `npm start` to view test page with few examples.
-
-## Roadmap
-
-* Numl v2: [style2state syntax proposal](https://github.com/numldesign/numl/projects/2)
-* [Numl-React v1](https://github.com/numldesign/numl-react): Modular & Accessible React UI Library 🚀
-* [Theme-Generator](https://github.com/numldesign/theme-generator) 🌈
-* More documentation, examples, and tests
-* TRL Support
-* Improved Behavior System
-* Figma UI Kit 🌟 (Coming Soon) [![Figma](https://img.shields.io/badge/follow%20us-on%20Figma-blue)](https://www.figma.com/@numldesign)
+Ejecute `npm start` para ver la página de prueba con algunos ejemplos.
 
 
-## Contribution
-
-**We are looking for contributors!** 
-
-**Numl** is a big and ambitious project with open source that it has a unique approach in UI development. 
-
-Join us for creating a better Web for everyone!
-
-If you want to join us or leave some feedback write to this email: [inbox@numl.design](mailto:inbox@numl.design?subject=Numl%20Project)
-
-And here is our [Discord](https://discord.gg/sHnHPnAPZj). (Ask your questions here!)
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://tenphi.me"><img src="https://avatars3.githubusercontent.com/u/327209?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrey Yamanov</b></sub></a><br /><a href="https://github.com/numldesign/numl/commits?author=tenphi" title="Code">💻</a> <a href="https://github.com/numldesign/numl/issues?q=author%3Atenphi" title="Bug reports">🐛</a> <a href="#business-tenphi" title="Business development">💼</a> <a href="#design-tenphi" title="Design">🎨</a> <a href="https://github.com/numldesign/numl/commits?author=tenphi" title="Documentation">📖</a> <a href="#ideas-tenphi" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/numldesign/numl/commits?author=tenphi" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/shubham-kaushal"><img src="https://avatars3.githubusercontent.com/u/63925481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shubham Kaushal</b></sub></a><br /><a href="https://github.com/numldesign/numl/issues?q=author%3Ashubham-kaushal" title="Bug reports">🐛</a> <a href="#business-shubham-kaushal" title="Business development">💼</a> <a href="#design-shubham-kaushal" title="Design">🎨</a> <a href="https://github.com/numldesign/numl/commits?author=shubham-kaushal" title="Documentation">📖</a> <a href="#ideas-shubham-kaushal" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/numldesign/numl/commits?author=shubham-kaushal" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/timeshift92"><img src="https://avatars1.githubusercontent.com/u/13614530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nurbek Akhmedov</b></sub></a><br /><a href="https://github.com/numldesign/numl/commits?author=timeshift92" title="Tests">⚠️</a> <a href="https://github.com/numldesign/numl/issues?q=author%3Atimeshift92" title="Bug reports">🐛</a> <a href="#ideas-timeshift92" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://www.facebook.com/profile.php?id=100003949341124"><img src="https://avatars2.githubusercontent.com/u/29942902?v=4?s=100" width="100px;" alt=""/><br /><sub><b>katrinLuna</b></sub></a><br /><a href="https://github.com/numldesign/numl/commits?author=katrinLuna" title="Documentation">📖</a> <a href="https://github.com/numldesign/numl/commits?author=katrinLuna" title="Tests">⚠️</a> <a href="https://github.com/numldesign/numl/issues?q=author%3AkatrinLuna" title="Bug reports">🐛</a> <a href="#ideas-katrinLuna" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://resume.dmtry.me/"><img src="https://avatars3.githubusercontent.com/u/572096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dmitry Patsura</b></sub></a><br /><a href="https://github.com/numldesign/numl/commits?author=ovr" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/andrey-skl"><img src="https://avatars2.githubusercontent.com/u/4318513?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrey Skladchikov</b></sub></a><br /><a href="https://github.com/numldesign/numl/issues?q=author%3Aandrey-skl" title="Bug reports">🐛</a> <a href="#ideas-andrey-skl" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://dev.to/leonid_cube_dev"><img src="https://avatars0.githubusercontent.com/u/30028681?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leonid Yakovlev</b></sub></a><br /><a href="#ideas-YakovlevCoded" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/numldesign/numl/commits?author=YakovlevCoded" title="Tests">⚠️</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## License
 
